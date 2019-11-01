@@ -1,0 +1,74 @@
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+/* NAV */
+
+nav {
+  width: 100%;
+  height: 48px;
+}
+
+
+#logoDiv {
+  height: 48px;
+  width: 106px;
+  background-image: linear-gradient(to bottom right, rgb(205,2,150),rgb(255,68,34));
+}
+
+#navHolder {
+  width: 100%;
+}
+
+nav,
+#blackNav,
+#whiteNav,
+#blackNav ul,
+#whiteNav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+#blackNav,
+#whiteNav {
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+#blackNav {
+  background-color: black;
+  color: white;
+  height: 32px;
+}
+#blackNav {
+  position: absolute;
+  visibility: hidden;
+}
+
+#whiteNav {
+  height: 48px;
+  align-items: center;
+}
+
+#navSections {
+  position: absolute;
+  visibility: hidden;
+}
+
+#navIcons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+/* MAIN */
+
+
+
+/* FOOTER*/
+
+
+
+/* MEDIA QUERIES */
