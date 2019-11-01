@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 /* NAV */
 
@@ -76,6 +77,8 @@ nav,
   grid-template: repeat(3, 270px)/100%;
   gap: 10px;
   margin: auto;
+  min-width: 335px;
+  color: white;
 }
 
 .topArts {
@@ -100,15 +103,65 @@ nav,
   justify-content: flex-end;
   padding: 2%;
   background-image: url("..//images/blackGradient.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .insideArts div, .insideArts h2 {
   padding-top: 2px;
+  color: white;
 }
 
 .byHourShare {
   display: flex;
   height: 20px;
+  font-size: 0.65em;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+.byHourShare div,
+.byHourShare div a {
+  color: rgb(146, 143, 143);
+}
+
+.by a:hover {
+  color: white;
+}
+
+.insideArts a {
+  text-decoration: none;
+  color: white;
+}
+
+.insideArts h2 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.oneWord {
+  font-family: 'Teko', sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  line-height: 0.9em;
+}
+
+.clock {
+  width: 16px;
+  height: 16px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+  background-position-x: 10%;
+  background-position-y: 10%;
+  margin: 0 5px;
+}
+
+.share {
+  width: 20px;
+  height: 17px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+  background-position-x: 68.7%;
+  background-position-y: 68.8%;
+  margin: 0 5px;
 }
 
 #article1,
