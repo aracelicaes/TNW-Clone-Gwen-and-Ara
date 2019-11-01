@@ -6,7 +6,8 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
 }
 /* NAV */
 
@@ -183,6 +184,120 @@ nav,
 
 #article3 {
   background-image: url("../images/userUsedBitcoin.jpg");
+}
+
+/* LATEST NEWS */
+
+#latestNews {
+  width: 95%;
+  margin: 70px auto 0 auto;
+}
+
+#latestNews h2 {
+  margin-bottom: 30px;
+  font-size: 2em;
+  font-weight: bolder;
+  color: #f42;
+  width: 35%;
+}
+
+#latestNews a {
+  text-decoration: none;
+}
+
+#latestNews a h2:hover {
+  color: black;
+}
+
+.latestDiv {
+  width: 95%;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  margin: 15px auto;
+}
+
+.latestImg {
+  min-width: 75px;
+  height: 75px;
+  margin-right: 15px;
+}
+
+#latestImg1,
+#latestImg2,
+#latestImg3,
+#latestImg4,
+#latestImg5,
+#latestImg6,
+#latestImg7,
+#latestImg8 {
+  background-position: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#latestImg1 {
+  background-image: url(/Images/orangeLadyTalking.png);
+}
+
+#latestImg2 {
+  background-image: url(/Images/googleBuysFitbit.jpg);
+}
+
+#latestImg3 {
+  background-image: url(/Images/bitcoinQuestionGirl.jpg);
+}
+
+#latestImg4 {
+  background-image: url(/Images/classroomChairs.jpg);
+}
+
+#latestImg5 {
+  background-image: url(/Images/cheapThisEcoDot.png);
+}
+
+#latestImg6 {
+  background-image: url(/Images/customersDontWantAbsolutePrivacy.png);
+}
+
+#latestImg7 {
+  background-image: url(/Images/becomeASpeedReadingMachine.jpg);
+}
+
+#latestImg8 {
+  background-image: url(/Images/impossibleToBecomeArtistOnFacebook.png);
+}
+
+.latestTitle {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.latestTitle a {
+  color: black;
+}
+
+.latestTitle a h4:hover {
+  color: #f42;
+}
+
+.latestInfo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  font-size: 0.8em;
+  color: rgb(134, 134, 134);
+}
+
+.latestInfo a,
+.latestInfo p {
+  color: #aaa;
+  font-weight: light;
+  margin-right: 10px;
+}
+
+.latestInfo a:hover {
+  color: #555;
 }
 
 /* FOOTER*/
