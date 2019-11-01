@@ -15,7 +15,8 @@ nav {
 #logoDiv {
   height: 48px;
   width: 106px;
-  background-image: linear-gradient(to bottom right, rgb(205,2,150),rgb(255,68,34));
+  background-image: url("../images/tnwSmallLogo.png");
+  background-position: center;
 }
 
 #navHolder {
@@ -74,6 +75,7 @@ nav,
 
 /* MEDIA QUERIES */
 
+/* MEDIUM */
 @media only screen and (min-width: 765px) {
   #blackNav {
     position: static;
@@ -87,5 +89,6 @@ nav,
 
   #logoDiv {
     height: 80px;
+    background-image: url("../images/tnwLogo.png");
   }
 }
