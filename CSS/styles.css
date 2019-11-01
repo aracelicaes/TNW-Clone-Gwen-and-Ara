@@ -77,16 +77,20 @@ nav,
   gap: 10px;
   margin: auto;
 }
+
 .topArts {
   height: 100%;
   width: 100%;
   margin: auto;
 }
 
-.gradient {
-  width: 100%;
-  height: 100%;
-  background-image: url("..//images/blackGradient.png");
+#article2 .topArts,
+#article3 .topArts {
+  filter: brightness(140%);
+}
+
+#imageClick {
+  height: 214px;
 }
 
 .insideArts {
@@ -95,10 +99,7 @@ nav,
   height: 100%;
   justify-content: flex-end;
   padding: 2%;
-  z-index: ;
-  /* position: relative;
-  top: -269px;
-  margin-bottom: -250px; */
+  background-image: url("..//images/blackGradient.png");
 }
 
 .insideArts div, .insideArts h2 {
@@ -107,6 +108,7 @@ nav,
 
 .byHourShare {
   display: flex;
+  height: 20px;
 }
 
 #article1,
