@@ -42,6 +42,7 @@ nav,
   color: white;
   height: 32px;
 }
+
 #blackNav {
   position: absolute;
   visibility: hidden;
@@ -72,3 +73,19 @@ nav,
 
 
 /* MEDIA QUERIES */
+
+@media only screen and (min-width: 765px) {
+  #blackNav {
+    position: static;
+    visibility: visible;
+  }
+
+  #navSections {
+    position: static;
+    visibility: visible;
+  }
+
+  #logoDiv {
+    height: 80px;
+  }
+}
