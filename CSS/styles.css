@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
 /* NAV */
 
 nav {
@@ -66,8 +69,66 @@ nav,
   justify-content: flex-end;
 }
 /* MAIN */
+/* TOP ARTICLES */
+#topArticles {
+  display: grid;
+  width: 95%;
+  grid-template: repeat(3, 270px)/100%;
+  gap: 10px;
+  margin: auto;
+}
+.topArts {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
 
+.gradient {
+  width: 100%;
+  height: 100%;
+  background-image: url("..//images/blackGradient.png");
+}
 
+.insideArts {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  padding: 2%;
+  z-index: ;
+  /* position: relative;
+  top: -269px;
+  margin-bottom: -250px; */
+}
+
+.insideArts div, .insideArts h2 {
+  padding-top: 2px;
+}
+
+.byHourShare {
+  display: flex;
+}
+
+#article1,
+#article2,
+#article3 {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#article1 {
+  background-image: url("../images/netflixProject.jpg");
+}
+
+#article2 {
+  background-image: url("../images/bitcoinGuys.png");
+}
+
+#article3 {
+  background-image: url("../images/userUsedBitcoin.jpg");
+}
 
 /* FOOTER*/
 
