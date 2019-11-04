@@ -612,6 +612,100 @@ nav,
   color: black;
 }
 
+/* LATEST DEALS */
+#latestDeals {
+  width: 95%;
+  margin: auto;
+}
+
+.holdingTitleSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 16px 30px;
+}
+
+.titleStyle {
+  width: 300px;
+}
+
+#seeAll {
+  width: 160px;
+  text-align: end;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #f42;
+  font-size: 0.8em;
+}
+
+#seeAll:hover {
+  color: black;
+}
+
+#latestDeals a {
+  text-decoration: none;
+}
+
+.latestDealsInfo {
+  font-weight: lighter;
+}
+
+.strikePrice {
+  text-decoration: line-through;
+  font-size: 0.95em;
+  color: #aaa;
+}
+
+.realPrice {
+  color: #555;
+  font-size: 1.2em;
+}
+
+#latestImg11,
+#latestImg22,
+#latestImg33,
+#latestImg44,
+#latestImg55,
+#latestImg66,
+#latestImg77,
+#latestImg88 {
+  background-position: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#latestImg11 {
+  background-image: url(/images/masteryBundle.jpg);
+}
+
+#latestImg22 {
+  background-image: url(/images/designWizardPro.jpg);
+}
+
+#latestImg33 {
+  background-image: url(/images/cloudComputingArchitect.jpg);
+}
+
+#latestImg44 {
+  background-image: url(/images/premium2020LearnToCodeBundle.jpg);
+}
+
+#latestImg55 {
+  background-image: url(/images/completeJIRA.jpg);
+}
+
+#latestImg66 {
+  background-image: url(/images/mySQLcourse.jpg);
+}
+
+#latestImg77 {
+  background-image: url(/images/quickbooksMasterclass.jpg);
+}
+
+#latestImg88 {
+  background-image: url(/images/electricalEngineering.jpg);
+}
+
 /* FOOTER*/
 
 
