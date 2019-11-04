@@ -374,7 +374,7 @@ nav,
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  left: -21%;
+  left: -23.5%;
   top: -110%;
   margin-bottom: -58px;
 }
@@ -452,9 +452,167 @@ nav,
   font-size: 0.9em;
 }
 
+/* GENRE SECTIONS */
+
+.genreSection {
+  width: 95%;
+  margin: 30px;
+}
+
+.genreHeadings h2 {
+  margin-bottom: 20px;
+}
+
+.genreLi {
+  margin-bottom: 30px;
+}
+
+.mainGenreImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#genreSect1Img {
+  background-image: url(../Images/Maps-incognito-368x276.jpg);
+}
+
+#genreSect2Img {
+  background-image: url(../Images/Juiced-CCX-e-bike-ebike-CrossCurrent-X-1-of-1-368x276.jpg);
+}
+
+#genreSect3Img {
+  background-image: url(../Images/china-attack-hed-368x276.jpg);
+}
+
+#genreSect4Img {
+  background-image: url(../Images/Giphy-Arcade-368x276.jpg);
+}
+
+#genreSect5Img {
+  background-image: url(../Images/customersDontWantAbsolutePrivacy.png);
+}
+
+#genreSect6Img {
+  background-image: url(../Images/bitcoinQuestionGirl.jpg);
+}
+
+#genreSect7Img {
+  background-image: url(../Images/Amazon-Prime-Fresh-delivery-hed-368x276.jpg);
+}
+#genreSect8Img {
+  background-image: url(../Images/classroomChairs.jpg);
+}
+
+.genreLatest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffdad3;
+  margin-top: 5px;
+}
+
+.latest {
+  display: flex;
+  flex-direction: column;
+  color: #f42;
+}
+
+.genreLatestImg {
+  min-width: 96px;
+  height: 96px;
+  background-position: center;
+  background-size: cover;
+}
+
+.genreLatestImg:hover {
+  cursor: pointer;
+}
+
+#genreLatestImg1 {
+  background-image: url(../Images/Facebook-Secret.jpg);
+}
+
+#genreLatestImg2 {
+  background-image: url(../Images/googleBuysFitbit.jpg);
+}
+
+#genreLatestImg3 {
+  background-image: url(../Images/orangeLadyTalking.png);
+}
+
+#genreLatestImg4 {
+  background-image: url(../Images/theQuickBrownFox.png);
+}
+
+#genreLatestImg5 {
+  background-image: url(../Images/computers.png);
+}
+
+#genreLatestImg6 {
+  background-image: url(../Images/bitcoinGuys.png);
+}
+
+#genreLatestImg7 {
+  background-image: url(../Images/Press-Conference-with-Eric-Esrailian-Alexis-Ohanian-Hakob-Arshakyan-Yervant-Zorian-and-Serj-Tankian-hed.jpg);
+}
+
+#genreLatestImg8 {
+  background-image: url(../Images/playstation-vue-.jpg);
+}
+
+.genreUl li::before {
+  content: '\2022';
+  color: #f42;
+  display: inline-block;
+  width: 1em;
+}
+
+.latestDot {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.latest {
+  margin: 15px;
+  font-size: 0.9em;
+}
+
+.latest p:nth-child(2) {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.latest p:nth-child(2) a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest p:nth-child(2) a:hover {
+  box-shadow: inset 0 -1px 0 rgba(255,68,34,.2);
+}
+
+.genreUl {
+  margin-top: 25px;
+}
+
+.genreUl li {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+
+.genreUl li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.genreUl li a:hover {
+  color: black;
+}
 
 /* FOOTER*/
-
 
 
 /* MEDIA QUERIES */
