@@ -193,19 +193,23 @@ nav,
   margin: 70px auto 0 auto;
 }
 
-#latestNews h2 {
+.titleStyle {
   margin-bottom: 30px;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bolder;
   color: #f42;
   width: 35%;
+}
+
+.titleStyle {
+  text-decoration: none;
 }
 
 #latestNews a {
   text-decoration: none;
 }
 
-#latestNews a h2:hover {
+.titleStyle:hover {
   color: black;
 }
 
@@ -299,6 +303,155 @@ nav,
 .latestInfo a:hover {
   color: #555;
 }
+
+/* LATEST FUNDING ROUNDS */
+#fundingRounds {
+  width: 95%;
+  margin: 10% auto auto auto;
+  min-width: 335px;
+}
+
+#frSeeMore {
+  line-height: 1.5em;
+  margin-top: 6%;
+}
+
+#frSeeMore a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 0.8em;
+}
+
+#frSeeMore a:hover {
+  color: black;
+}
+
+#littleSec1,
+#littleSec2,
+#littleSec3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.titleFundLogo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.littleCompany,
+.moneySeries {
+  padding: 2% 5% 2% 20%;
+  font-weight: bold;
+}
+
+.littleCompany {
+  color: white;
+  background-color: #f42;
+  font-size: 1.2em;
+}
+
+.moneySeries {
+  background-color: #ffece7;
+}
+
+.littleMoney {
+  color: black;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.littleSeries {
+  color: rgb(146, 143, 143);
+  font-weight: lighter;
+  font-size: 0.8em;
+}
+
+.littleSecLogo {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  left: -21%;
+  top: -110%;
+  margin-bottom: -58px;
+}
+
+#littleSecLogo1 {
+  background-image: url("../images/weFarm.jpg");
+}
+
+#littleSecLogo2 {
+  background-image: url("../images/paidy.jpg");
+}
+
+#littleSecLogo3 {
+  background-image: url("../images/workiz.jpg");
+}
+
+.littleIcon {
+  width: 25px;
+  height: 20px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+  background-position-x: 76%;
+  background-position-y: 76.4%;
+  margin: 0 5px;
+}
+
+.littleIcon2 {
+  width: 25px;
+  height: 20px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+  background-position-x: 3.2%;
+  background-position-y: 3.8%;
+  margin: 0 5px;
+}
+
+.littleLink {
+  margin-top: 2%;
+}
+
+.finServ {
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+  padding: 2%;
+  background-color: #fffaf8;
+}
+
+.finServ a {
+  text-decoration: none;
+  display: flex;
+  color: #555555;
+  font-size: 0.9em;
+}
+
+.finServ a:hover {
+  color: black;
+}
+
+.descriptionBox {
+  border-top: 1px solid #ffccc2;
+  padding: 5%;
+  background-color: #fffaf8;
+}
+
+.descriptionBox a {
+  text-decoration: none;
+}
+
+.description {
+  color: #555555;
+  font-size: 0.9em;
+}
+
+.onDescript {
+  color: #aaaaaa;
+  font-size: 0.9em;
+}
+
 
 /* FOOTER*/
 
