@@ -93,7 +93,7 @@ nav,
   filter: brightness(140%);
 }
 
-#imageClick {
+.imageClick {
   height: 214px;
 }
 
@@ -622,7 +622,7 @@ nav,
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 16px 30px;
+  margin: 16px 13px;
 }
 
 .titleStyle {
@@ -707,7 +707,50 @@ nav,
 }
 
 /* FOOTER*/
+footer {
+  width: 100%;
+}
 
+#topPart {
+  /* background-color: #131313; */
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0;
+}
+
+/* #socialMediaIcons li {
+  border-radius: 100%;
+  border: 1px solid #aaa;
+} */
+#socialMediaIcons {
+  display: flex;
+}
+
+#socialMediaIcons li {
+  width: 40px;
+  height: 40px; 
+}
+
+#footerIcons ul li a {
+  width: 16px;
+  height: 16px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
+}
+
+#fb {
+  background-position-x: 272px;
+  background-position-y: 272px;
+}
+
+#theLinks {
+  display: flex;
+}
+
+#theLinks li a {
+  color: #aaa;
+  text-decoration: none;
+}
 
 /* MEDIA QUERIES */
 
