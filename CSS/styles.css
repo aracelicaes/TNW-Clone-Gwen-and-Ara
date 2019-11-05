@@ -252,6 +252,8 @@ nav,
 #latestNews {
   width: 95%;
   margin: 70px auto 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .titleStyle {
@@ -363,6 +365,11 @@ nav,
 
 .latestInfo a:hover {
   color: #555;
+}
+
+#emptyDiv {
+  position: absolute;
+  visibility: hidden;
 }
 
 /* LATEST FUNDING ROUNDS */
@@ -912,6 +919,9 @@ footer {
 }
 
 @media only screen and (min-width: 765px) {
+  
+  /* NAV */
+  
   nav {
     height: 80px;
   }
@@ -936,6 +946,8 @@ footer {
     background-image: url("../images/tnwLogo.png");
   }
 
+  /* TOP ARTICLES */
+
   #topArticles {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -949,11 +961,61 @@ footer {
   #article1 h2 {
     font-size: 2rem;
   }
+
+  /* LATEST NEWS/DEALS */
+
+  .titleStyle {
+    width: 100%;
+  }
+
+  #latestNews,
+  #latestDeals {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 30px auto auto auto;
+    justify-content: space-between;
+  }
+
+  .latestDiv {
+    flex-direction: column;
+    width: 32%;
+    height: auto;
+    margin: 0 0 10px 0;
+  }
+
+  .latestImg {
+    height: 150px;
+  }
+
+  #emptyDiv {
+    position: static;
+    visibility: visible;
+  }
 }
 
 /* LARGE */
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 1005px) {
+
+  #latestNews {
+    width: 100%;
+  }
+
+  .latestDiv {
+    width: 240px;
+  }
+
+  .latestImg {
+    height: 120px;
+  }
+
+  #emptyDiv {
+    position: absolute;
+    visibility: hidden;
+  }
+
   #logoDiv {
     position: absolute;
     visibility: hidden;
