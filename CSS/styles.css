@@ -1088,6 +1088,20 @@ footer {
 
 @media only screen and (min-width: 1005px) {
 
+  /* TOP ARTICLES */
+  #article1 .imageClick {
+    background-image: url("../Images/bigTNWLogoLighter.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 500px;
+  }
+
+  #article1 .insideArts {
+    background-image: url("../Images/redGradient.png"), url(../Images/blackGradient.png);
+  }
+  
   /* LATEST NEWS/DEALS */
   #latestNews,
   #latestDeals {
