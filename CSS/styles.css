@@ -527,7 +527,7 @@ nav,
 
 /* GENRE SECTIONS */
 
-.genreSection {
+#genreSection {
   width: 95%;
   margin: 30px;
 }
@@ -915,6 +915,11 @@ footer {
   top: 4px;
 }
 
+#emptyLi {
+  position: absolute;
+  visibility: hidden;
+}
+
 /* MEDIA QUERIES */
 
 /* MEDIUM */
@@ -1068,6 +1073,21 @@ footer {
     left: -31%;
     top: -90%;
   }
+
+  /* SITE GENRE */
+
+  #genreSection ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .genreLi {
+    width: 45%;
+    margin: auto;
+  }
+
 }
 
 /* MEDIUMER */
@@ -1109,7 +1129,6 @@ footer {
   /* LATEST NEWS/DEALS */
   #latestNews,
   #latestDeals {
-    width: 100%;
     max-width: 1152px;
   }
 
@@ -1167,5 +1186,22 @@ footer {
   .littleSecLogo {
     left: -50%;
     top: -77%;
+  }
+
+  /* GENRE SECTION */
+
+  #genreSection {
+    max-width: 1152px;
+    margin: auto;
+  }
+
+  .genreLi {
+    width: 32%;
+    margin: 10px auto;
+  }
+
+  #emptyLi {
+    position: static;
+    visibility: visible;
   }
 }
