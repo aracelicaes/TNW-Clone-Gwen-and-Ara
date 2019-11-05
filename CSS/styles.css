@@ -7,13 +7,14 @@
 body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-
+  background-color: #fff;
 }
 /* NAV */
 
 nav {
   width: 100%;
   height: 48px;
+  margin-bottom: 10px;
 }
 
 
@@ -47,6 +48,7 @@ nav,
   background-color: black;
   color: white;
   height: 32px;
+  font-size: 0.85em;
 }
 
 #blackNav {
@@ -54,14 +56,38 @@ nav,
   visibility: hidden;
 }
 
+.blackNavUl li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3px 0 3px;
+  color: grey;
+}
+
+.blackNavUl li:hover {
+  color: white;
+}
+
 #whiteNav {
   height: 48px;
   align-items: center;
+  font-family: 'Teko', sans-serif;
 }
 
 #navSections {
+  white-space: nowrap;
+  font-size: 1.3em;
+  color: #aaa;
   position: absolute;
   visibility: hidden;
+}
+
+#navSections li {
+  padding: 0 10px 0 10px;
+}
+
+#navSections li:hover {
+  color: black;
 }
 
 #navIcons {
@@ -70,6 +96,41 @@ nav,
   flex-direction: row;
   justify-content: flex-end;
 }
+
+.navIconsLi {
+  height: 48px;
+  width: 48px;
+  border-left: 1px solid #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navIcons li:first-of-type li {
+  height: 16px;
+  width: 16px;
+}
+
+#navIcons li:last-of-type li {
+  height: 18px;
+  width: 18px;
+}
+
+#magnify {
+  height: 16px;
+  width: 16px;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-position-x: 65%;
+  background-position-y: 65%;
+}
+
+#burger {
+  height: 18px;
+  width: 18px;
+  background-image: url(../Images/burgerIcon.PNG);
+  background-position: center;
+}
+
 /* MAIN */
 /* TOP ARTICLES */
 #topArticles {
@@ -843,10 +904,26 @@ footer {
 /* MEDIA QUERIES */
 
 /* MEDIUM */
+@media only screen and (max-width: 815px) {
+  #blackNav2 {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
 @media only screen and (min-width: 765px) {
+  nav {
+    height: 80px;
+  }
+  
   #blackNav {
     position: static;
     visibility: visible;
+  }
+
+  #burgerHide {
+    position: absolute;
+    visibility: hidden;
   }
 
   #navSections {
@@ -857,5 +934,14 @@ footer {
   #logoDiv {
     height: 80px;
     background-image: url("../images/tnwLogo.png");
+  }
+}
+
+/* LARGE */
+
+@media only screen and (min-width: 1023px) {
+  #logoDiv {
+    position: absolute;
+    visibility: hidden;
   }
 }
