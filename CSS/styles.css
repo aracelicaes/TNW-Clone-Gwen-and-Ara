@@ -93,6 +93,18 @@ nav,
   padding: 0 10px 0 10px;
 }
 
+#socialMediaIcons li {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #555;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
 #navSections li:hover {
   color: black;
 }
@@ -316,12 +328,12 @@ nav,
   color: #f42;
 }
 
-.latest p:nth-child(2) a:hover {
-  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.2);
-}
-
 .genreUl li a:hover {
   color: black;
+}
+
+.latest p:nth-child(2) a:hover {
+  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.2);
 }
 
 #latestNews a {
@@ -433,6 +445,16 @@ nav,
   text-decoration: none;
   color: #f42;
   font-size: 0.8em;
+}
+#latestDeals a {
+  text-decoration: none;
+}
+
+#footerIcons ul li a {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
 }
 
 #frSeeMore a:hover {
@@ -721,10 +743,6 @@ nav,
   color: black;
 }
 
-#latestDeals a {
-  text-decoration: none;
-}
-
 .latestDealsInfo {
   font-weight: lighter;
 }
@@ -810,25 +828,6 @@ footer {
   display: flex;
   width: 100%;
   justify-content: center;
-}
-
-#socialMediaIcons li {
-  display: flex;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  background-color: #555;
-  justify-content: center;
-  align-items: center;
-  margin: 5px;
-  cursor: pointer;
-}
-
-#footerIcons ul li a {
-  display: inline-flex;
-  width: 16px;
-  height: 16px;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
 }
 
 #socialMediaIcons li:hover {
