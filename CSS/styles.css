@@ -20,7 +20,7 @@ nav {
 #logoDiv {
   height: 48px;
   width: 106px;
-  background-image: url("../images/tnwSmallLogo.png");
+  background-image: url("../Images/tnwSmallLogo.png");
   background-position: center;
 }
 
@@ -103,7 +103,7 @@ nav,
   height: 100%;
   justify-content: flex-end;
   padding: 2%;
-  background-image: url("..//images/blackGradient.png");
+  background-image: url("../Images/blackGradient.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -175,15 +175,15 @@ nav,
 }
 
 #article1 {
-  background-image: url("../images/netflixProject.jpg");
+  background-image: url("../Images/netflixProject.jpg");
 }
 
 #article2 {
-  background-image: url("../images/bitcoinGuys.png");
+  background-image: url("../Images/bitcoinGuys.png");
 }
 
 #article3 {
-  background-image: url("../images/userUsedBitcoin.jpg");
+  background-image: url("../Images/userUsedBitcoin.jpg");
 }
 
 /* LATEST NEWS */
@@ -241,35 +241,35 @@ nav,
 }
 
 #latestImg1 {
-  background-image: url(/Images/orangeLadyTalking.png);
+  background-image: url(../Images/orangeLadyTalking.png);
 }
 
 #latestImg2 {
-  background-image: url(/Images/googleBuysFitbit.jpg);
+  background-image: url(../Images/googleBuysFitbit.jpg);
 }
 
 #latestImg3 {
-  background-image: url(/Images/bitcoinQuestionGirl.jpg);
+  background-image: url(../Images/bitcoinQuestionGirl.jpg);
 }
 
 #latestImg4 {
-  background-image: url(/Images/classroomChairs.jpg);
+  background-image: url(../Images/classroomChairs.jpg);
 }
 
 #latestImg5 {
-  background-image: url(/Images/cheapThisEcoDot.png);
+  background-image: url(../Images/cheapThisEcoDot.png);
 }
 
 #latestImg6 {
-  background-image: url(/Images/customersDontWantAbsolutePrivacy.png);
+  background-image: url(../Images/customersDontWantAbsolutePrivacy.png);
 }
 
 #latestImg7 {
-  background-image: url(/Images/becomeASpeedReadingMachine.jpg);
+  background-image: url(../Images/becomeASpeedReadingMachine.jpg);
 }
 
 #latestImg8 {
-  background-image: url(/Images/impossibleToBecomeArtistOnFacebook.png);
+  background-image: url(../Images/impossibleToBecomeArtistOnFacebook.png);
 }
 
 .latestTitle {
@@ -380,15 +380,15 @@ nav,
 }
 
 #littleSecLogo1 {
-  background-image: url("../images/weFarm.jpg");
+  background-image: url("../Images/weFarm.jpg");
 }
 
 #littleSecLogo2 {
-  background-image: url("../images/paidy.jpg");
+  background-image: url("../Images/paidy.jpg");
 }
 
 #littleSecLogo3 {
-  background-image: url("../images/workiz.jpg");
+  background-image: url("../Images/workiz.jpg");
 }
 
 .littleIcon {
@@ -501,7 +501,7 @@ nav,
   background-image: url(../Images/Amazon-Prime-Fresh-delivery-hed-368x276.jpg);
 }
 #genreSect8Img {
-  background-image: url(../images/wikipedia.jpg);
+  background-image: url(../Images/wikipedia.jpg);
 }
 
 .genreLatest {
@@ -675,35 +675,35 @@ nav,
 }
 
 #latestImg11 {
-  background-image: url(/images/masteryBundle.jpg);
+  background-image: url(../Images/masteryBundle.jpg);
 }
 
 #latestImg22 {
-  background-image: url(/images/designWizardPro.jpg);
+  background-image: url(../Images/designWizardPro.jpg);
 }
 
 #latestImg33 {
-  background-image: url(/images/cloudComputingArchitect.jpg);
+  background-image: url(../Images/cloudComputingArchitect.jpg);
 }
 
 #latestImg44 {
-  background-image: url(/images/premium2020LearnToCodeBundle.jpg);
+  background-image: url(../Images/premium2020LearnToCodeBundle.jpg);
 }
 
 #latestImg55 {
-  background-image: url(/images/completeJIRA.jpg);
+  background-image: url(../Images/completeJIRA.jpg);
 }
 
 #latestImg66 {
-  background-image: url(/images/mySQLcourse.jpg);
+  background-image: url(../Images/mySQLcourse.jpg);
 }
 
 #latestImg77 {
-  background-image: url(/images/quickbooksMasterclass.jpg);
+  background-image: url(../Images/quickbooksMasterclass.jpg);
 }
 
 #latestImg88 {
-  background-image: url(/images/electricalEngineering.jpg);
+  background-image: url(../Images/electricalEngineering.jpg);
 }
 
 /* FOOTER*/
@@ -828,6 +828,16 @@ footer {
 
 #heart {
   color: #f42;
+}
+
+.footerImgCenter,
+#stackpath {
+  position: relative;
+  top: 3px;
+}
+
+#stackpath {
+  top: 4px;
 }
 
 /* MEDIA QUERIES */
