@@ -712,44 +712,122 @@ footer {
 }
 
 #topPart {
-  /* background-color: #131313; */
-  background-color: green;
+  background-color: #131313;
   display: flex;
   flex-direction: column;
   padding: 35px 0;
+  align-items: center;
 }
 
-/* #socialMediaIcons li {
-  border-radius: 100%;
-  border: 1px solid #aaa;
-} */
+#footerIcons {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+}
+
 #socialMediaIcons {
   display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 #socialMediaIcons li {
+  display: flex;
   width: 40px;
   height: 40px; 
+  border-radius: 100%;
+  background-color: #555;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  cursor: pointer;
 }
 
 #footerIcons ul li a {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783");
 }
 
+#socialMediaIcons li:hover {
+  background-color: #131313;
+  border: 1px solid #555;
+}
+
 #fb {
-  background-position-x: 272px;
-  background-position-y: 272px;
+  background-position-x: 21.2%;
+  background-position-y: 21.2%;
+}
+
+#twitter {
+  background-position-x: 80%;
+  background-position-y: 80%;
+}
+
+#youtube {
+  background-position-x: 100%;
+  background-position-y: 100%;
+}
+
+#instagram {
+  background-position-x: 32.5%;
+  background-position-y: 32.5%;
+}
+
+#pinterest {
+  background-position-x: 52.5%;
+  background-position-y: 52.5%;
+}
+
+#rssFeed {
+  background-position-x: 63.7%;
+  background-position-y: 63.7%;
+}
+
+#email {
+    background-position-x: 45%;
+    background-position-y: 45%;
 }
 
 #theLinks {
   display: flex;
 }
 
+#theLinks li {
+  margin: 30px 5px 5px 5px;
+  font-size: 1.2em;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
+}
+
 #theLinks li a {
   color: #aaa;
   text-decoration: none;
+}
+
+#theLinks li a:hover {
+  color: white;
+}
+
+#bottomPart {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0;
+  align-items: center;
+  color: #aaa;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  font-weight: lighter;
+}
+
+#bottomPart img {
+  vertical-align: baseline;
+}
+
+#heart {
+  color: #f42;
 }
 
 /* MEDIA QUERIES */
