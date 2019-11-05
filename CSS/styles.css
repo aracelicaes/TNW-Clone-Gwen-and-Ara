@@ -464,6 +464,10 @@ nav,
   background-image: url("../Images/workiz.jpg");
 }
 
+#littleSecLogo4 {
+  background-image: url("../Images/paidy.jpg");
+}
+
 .littleIcon {
   width: 25px;
   height: 20px;
@@ -1147,7 +1151,7 @@ footer {
     height: 120px;
   }
 
-  #emptyDiv {
+  .emptyDiv {
     position: absolute;
     visibility: hidden;
   }
