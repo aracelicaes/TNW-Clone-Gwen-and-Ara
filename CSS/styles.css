@@ -49,9 +49,6 @@ nav,
   color: white;
   height: 32px;
   font-size: 0.85em;
-}
-
-#blackNav {
   position: absolute;
   visibility: hidden;
 }
@@ -123,6 +120,11 @@ nav,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#socialMediaIcons li:hover {
+  background-color: #131313;
+  border: 1px solid #555;
 }
 
 #navIcons li:first-of-type li {
@@ -309,10 +311,8 @@ nav,
   font-weight: bolder;
   color: #f42;
   width: 35%;
-}
-
-.titleStyle {
   text-decoration: none;
+  width: 300px;
 }
 
 .latestInfo a:hover {
@@ -338,10 +338,6 @@ nav,
 
 #latestNews a {
   text-decoration: none;
-}
-
-.titleStyle {
-  width: 300px;
 }
 
 .titleStyle:hover {
@@ -446,8 +442,16 @@ nav,
   color: #f42;
   font-size: 0.8em;
 }
+
 #latestDeals a {
   text-decoration: none;
+}
+
+#theLinks li {
+  margin: 30px 5px 5px 5px;
+  font-size: 1.2em;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
 }
 
 #footerIcons ul li a {
@@ -646,6 +650,8 @@ nav,
   display: flex;
   flex-direction: column;
   color: #f42;
+  margin: 15px;
+  font-size: 0.9em;
 }
 
 .genreLatestImg {
@@ -701,11 +707,6 @@ nav,
 .latestDot {
   margin-left: 2px;
   margin-right: 2px;
-}
-
-.latest {
-  margin: 15px;
-  font-size: 0.9em;
 }
 
 .latest p:nth-child(2) {
@@ -830,11 +831,6 @@ footer {
   justify-content: center;
 }
 
-#socialMediaIcons li:hover {
-  background-color: #131313;
-  border: 1px solid #555;
-}
-
 #fb {
   background-position-x: 21.2%;
   background-position-y: 21.2%;
@@ -872,13 +868,6 @@ footer {
 
 #theLinks {
   display: flex;
-}
-
-#theLinks li {
-  margin: 30px 5px 5px 5px;
-  font-size: 1.2em;
-  font-family: 'Teko', sans-serif;
-  letter-spacing: 1px;
 }
 
 #theLinks li a {
