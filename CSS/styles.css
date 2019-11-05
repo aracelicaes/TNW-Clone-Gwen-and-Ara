@@ -1088,6 +1088,13 @@ footer {
     margin: auto;
   }
 
+  /* FOOTER */
+
+  #bottomPart {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* MEDIUMER */
