@@ -9,6 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #fff;
 }
+
 /* NAV */
 
 nav {
@@ -99,7 +100,7 @@ nav,
 .navIconsLi {
   height: 48px;
   width: 48px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #eee;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,6 +132,7 @@ nav,
 }
 
 /* MAIN */
+
 /* TOP ARTICLES */
 #topArticles {
   display: grid;
@@ -500,7 +502,7 @@ nav,
 .finServ a {
   text-decoration: none;
   display: flex;
-  color: #555555;
+  color: #555;
   font-size: 0.9em;
 }
 
@@ -519,12 +521,12 @@ nav,
 }
 
 .description {
-  color: #555555;
+  color: #555;
   font-size: 0.9em;
 }
 
 .onDescript {
-  color: #aaaaaa;
+  color: #aaa;
   font-size: 0.9em;
 }
 
@@ -782,7 +784,7 @@ nav,
   background-image: url(../Images/electricalEngineering.jpg);
 }
 
-/* FOOTER*/
+/* FOOTER */
 footer {
   min-width: 355px;
   width: 100%;
@@ -812,7 +814,7 @@ footer {
 #socialMediaIcons li {
   display: flex;
   width: 40px;
-  height: 40px; 
+  height: 40px;
   border-radius: 100%;
   background-color: #555;
   justify-content: center;
@@ -889,7 +891,7 @@ footer {
 }
 
 #bottomPart {
-  background-color: #000000;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   padding: 35px 0;
@@ -934,7 +936,6 @@ footer {
 }
 
 @media only screen and (min-width: 765px) {
-  
   /* NAV */
   
   nav {
@@ -1111,13 +1112,11 @@ footer {
     left: -63%;
     top: -90%;
   }
-
 }
 
 /* LARGE */
 
 @media only screen and (min-width: 1005px) {
-
   /* TOP ARTICLES */
   #article1 .imageClick {
     background-image: url("../Images/bigTNWLogoEdited.png");
