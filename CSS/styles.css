@@ -64,6 +64,13 @@ nav,
   color: grey;
 }
 
+.genreUl li {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+
 .blackNavUl li:hover {
   color: white;
 }
@@ -200,9 +207,25 @@ nav,
   margin-right: 10px;
 }
 
+.finServ a {
+  text-decoration: none;
+  display: flex;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.descriptionBox a {
+  text-decoration: none;
+}
+
 .byHourShare div,
 .byHourShare div a {
   color: rgb(146, 143, 143);
+}
+
+.genreUl li a {
+  text-decoration: none;
+  color: #555;
 }
 
 .by a:hover {
@@ -284,8 +307,29 @@ nav,
   color: #555;
 }
 
+.finServ a:hover {
+  color: black;
+}
+
+.latest p:nth-child(2) a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.latest p:nth-child(2) a:hover {
+  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.2);
+}
+
+.genreUl li a:hover {
+  color: black;
+}
+
 #latestNews a {
   text-decoration: none;
+}
+
+.titleStyle {
+  width: 300px;
 }
 
 .titleStyle:hover {
@@ -499,25 +543,10 @@ nav,
   background-color: #fffaf8;
 }
 
-.finServ a {
-  text-decoration: none;
-  display: flex;
-  color: #555;
-  font-size: 0.9em;
-}
-
-.finServ a:hover {
-  color: black;
-}
-
 .descriptionBox {
   border-top: 1px solid #ffccc2;
   padding: 5%;
   background-color: #fffaf8;
-}
-
-.descriptionBox a {
-  text-decoration: none;
 }
 
 .description {
@@ -662,33 +691,8 @@ nav,
   font-weight: bold;
 }
 
-.latest p:nth-child(2) a {
-  text-decoration: none;
-  color: #f42;
-}
-
-.latest p:nth-child(2) a:hover {
-  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.2);
-}
-
 .genreUl {
   margin-top: 25px;
-}
-
-.genreUl li {
-  border-bottom: 1px solid #eee;
-  margin-bottom: 10px;
-  font-size: 0.9em;
-  padding-bottom: 10px;
-}
-
-.genreUl li a {
-  text-decoration: none;
-  color: #555;
-}
-
-.genreUl li a:hover {
-  color: black;
 }
 
 /* LATEST DEALS */
@@ -702,10 +706,6 @@ nav,
   justify-content: space-between;
   align-items: baseline;
   margin: 16px 13px;
-}
-
-.titleStyle {
-  width: 300px;
 }
 
 #seeAll {
