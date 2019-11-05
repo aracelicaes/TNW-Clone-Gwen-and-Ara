@@ -993,13 +993,18 @@ footer {
     position: static;
     visibility: visible;
   }
+
+  .holdingTitleSec {
+    width: 100%;
+  }
 }
 
 /* LARGE */
 
 @media only screen and (min-width: 1005px) {
 
-  #latestNews {
+  #latestNews,
+  #latestDeals {
     width: 100%;
   }
 
