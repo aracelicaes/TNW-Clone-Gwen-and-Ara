@@ -102,6 +102,14 @@ nav,
   cursor: pointer;
 }
 
+
+#theLinks li {
+  margin: 30px 5px 5px 5px;
+  font-size: 1.2em;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 1px;
+}
+
 #navSections li:hover {
   color: black;
 }
@@ -310,7 +318,6 @@ nav,
   font-size: 1.8em;
   font-weight: bolder;
   color: #f42;
-  width: 35%;
   text-decoration: none;
   width: 300px;
 }
@@ -447,11 +454,9 @@ nav,
   text-decoration: none;
 }
 
-#theLinks li {
-  margin: 30px 5px 5px 5px;
-  font-size: 1.2em;
-  font-family: 'Teko', sans-serif;
-  letter-spacing: 1px;
+#theLinks li a {
+  color: #aaa;
+  text-decoration: none;
 }
 
 #footerIcons ul li a {
@@ -868,11 +873,6 @@ footer {
 
 #theLinks {
   display: flex;
-}
-
-#theLinks li a {
-  color: #aaa;
-  text-decoration: none;
 }
 
 #theLinks li a:hover {
