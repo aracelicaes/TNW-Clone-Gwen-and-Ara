@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -73,7 +73,7 @@ figure,
 figcaption,
 footer,
 header,
-hgroup, 
+hgroup,
 menu,
 nav,
 output,
@@ -88,7 +88,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -98,7 +98,7 @@ article,
 aside,
 details,
 figcaption,
-figure, 
+figure,
 footer,
 header,
 hgroup,
