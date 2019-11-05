@@ -9,7 +9,7 @@
 
 ## About the project
 
-![Screenshot Image](../Images/screenshotTNW.PNG)
+![Screenshot Image](Images/screenshotTNW.PNG)
 
 This project was built by Gwen and Ara for the 6th project in the Microverse program. It is built with HTML and CSS using pair programming and the driver/navigator method. This project is a clone of The Next Web found at https://thenextweb.com/ .
 
