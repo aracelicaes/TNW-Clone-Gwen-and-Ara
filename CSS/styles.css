@@ -935,6 +935,20 @@ footer {
     height: 80px;
     background-image: url("../images/tnwLogo.png");
   }
+
+  #topArticles {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 275px 275px;
+  }
+
+  #article1 {
+    grid-row: 1/span 2;
+  }
+
+  #article1 h2 {
+    font-size: 2rem;
+  }
 }
 
 /* LARGE */
