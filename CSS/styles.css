@@ -1102,6 +1102,10 @@ footer {
     background-image: url("../Images/redGradient.png"), url(../Images/blackGradient.png);
   }
   
+  #article1 h2 {
+    font-size: 3.2rem;
+  }
+
   /* LATEST NEWS/DEALS */
   #latestNews,
   #latestDeals {
